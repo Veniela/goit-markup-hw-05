@@ -465,7 +465,47 @@
     </footer>
 
     <div class="backdrop is-open">
-      <div class="modal"></div>
+      <div class="modal">
+        <div class="modal-closed">
+          <a href="#" class="modal-svg-icon"
+            ><svg class="closed-icon">
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+          </a>
+        </div>
+
+        <h2 class="modal-title">
+          Leave your contacts and we will call you back
+        </h2>
+
+        <form class="contact-form">
+          <label>
+            <span class="label-icon"></span>
+            <input type="text" name="name" placeholder="Name" required />
+          </label>
+
+          <label>
+            <span class="label-icon"></span>
+            <input type="tel" name="phone" placeholder="Phone" required />
+          </label>
+          <label>
+            <span class="label-icon"></span>
+            <input type="email" name="email" placeholder="Email" required />
+          </label>
+          <label class="textarea-wrap">
+            <span class="label-text">Comment</span>
+            <textarea name="comment" placeholder="Text input"></textarea>
+          </label>
+          <label class="checkbox-wrap">
+            <input type="checkbox" name="agree" required />
+            <span
+              >I accept the terms and conditions of the
+              <a href="#">Privacy Policy</a></span
+            >
+          </label>
+          <button type="submit" class="submit-btn">Send</button>
+        </form>
+      </div>
     </div>
   </body>
 </html>
