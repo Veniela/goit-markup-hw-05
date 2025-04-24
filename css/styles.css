@@ -672,7 +672,7 @@ fill: #f4f4fd;
 }
 
 .backdrop:not(.is-open) .modal {
-    transform: translate (-50%, -100%);
+    transform: (-50%, -100%);
 }
 
 /* Form Inside */
@@ -876,7 +876,7 @@ box-sizing: border-box;
 }
 
 .button-form {
-    display: center;
+    display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
