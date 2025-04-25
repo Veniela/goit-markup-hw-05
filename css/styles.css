@@ -726,8 +726,8 @@ fill: #f4f4fd;
 /* Input focus styles */
 .form-input:focus,
 .form-input:focus+.form-icon {
-    border-color: #4D5AE5;
-    fill: #4D5AE5;
+    border-color: #4d5ae5;
+    fill: #4d5ae5;
 }
 
 /* Textarea styles */
@@ -736,7 +736,7 @@ fill: #f4f4fd;
 }
 
 .form-textarea:focus {
-    border-color: #4D5AE5;
+    border-color: #4d5ae5;
 }
 
 /* Form button height */
@@ -747,12 +747,9 @@ fill: #f4f4fd;
 /* Form */
 
 .form {
-    display: flex;
         flex-direction: column;
         margin-bottom: 16px;
-        max-width: 360px;
         border-radius: 4px;
-            height: 336px;
             margin: auto;
 }
 
@@ -781,7 +778,7 @@ fill: #f4f4fd;
 .form-input:hover,
 .form-input:focus
 {
-border-color: #4D5AE5;
+border-color: #4d5ae5;
 }
 
 .input-wrapper {
@@ -790,7 +787,7 @@ border-color: #4D5AE5;
 
 .input-wrapper:hover .form-icon,
 .input-wrapper:focus-within .form-icon {
-    fill: #31d0aa;
+    fill: #4d5ae5;
 }
 
 .form-label {
@@ -813,7 +810,7 @@ border-color: #4D5AE5;
 
 .form-icon:hover,
 .form-icon:focus {
-    fill: #4D5AE5;
+    fill: #4d5ae5;
 }
 
 
@@ -837,7 +834,7 @@ border-color: #4D5AE5;
 }
 
 .form-textarea:focus {
-    border-color: #4D5AE5;
+    border-color: #4d5ae5;
 }
 
 .form-textarea::placeholder {
@@ -850,7 +847,7 @@ border-color: #4D5AE5;
 
 .form-textarea:hover,
 .form-textarea:focus-within {
-    border-color: #31d0aa;
+    border-color: #4d5ae5;
 }
 
 
